@@ -1,22 +1,10 @@
-
-
-
-
-
-
-
-
-
-
-const reverse = (str) => {
+const reversed = (str) => {
   let reversed = ''
 
-  for (let character of str) {
+  for(character of str) {
     reversed = character + reversed
   }
   return reversed
-
 }
 
-console.log(reverse('sam sparks'))
-//
+console.log(reversed('hello world'));
