@@ -4,6 +4,7 @@ const palindrome = (str) => {
 }
 
 
+
 // console.log(palindrome('racecar'));
 // console.log(palindrome('bob'));
 // console.log(palindrome('dancer'));
